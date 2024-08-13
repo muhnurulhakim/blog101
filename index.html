@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Minimalis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Minimalis</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#" id="searchToggle">Cari</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="searchContainer" style="display: none;">
+            <input type="text" id="searchInput" placeholder="Cari artikel...">
+            <button id="searchButton">Cari</button>
+        </div>
+
+        <div id="posts"></div>
+
+        <div id="pagination"></div>
+    </main>
+
+    <footer>
+        <p>© 2024 Blog Minimalis. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
